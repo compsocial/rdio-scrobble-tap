@@ -5,8 +5,8 @@ from subprocess import call
 import argparse
 
 parser = argparse.ArgumentParser(description='scrobbles rdio to facebook when you start tapping along; turns off after you stop for a while')
-parser.add_argument('authkey', help='auth key needed for rdio. see https://github.com/compsocial/rdio-tap-scrobble for setup instructions.')
-parser.add_argument('rcookie', help='cookie needed for rdio. see https://github.com/compsocial/rdio-tap-scrobble for setup instructions.')
+parser.add_argument('authkey', help='auth key needed for rdio. see https://github.com/compsocial/rdio-scrobble-tap for setup instructions.')
+parser.add_argument('rcookie', help='cookie needed for rdio. see https://github.com/compsocial/rdio-scrobble-tap for setup instructions.')
 parser.add_argument('--tapthresh', metavar='float', type=float, dest='tapthresh', default=0.005, help='turn this up for a noisier room. 0.005 is default.')
 parser.add_argument('--offafter', metavar='min', type=int, dest='offafter', default=20, help='after this many minutes of no tapping, turn scrobbling back off.')
 
