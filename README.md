@@ -49,6 +49,10 @@ subtle. If somebody figures this out, please let me know. This
 restriction makes me think it won't work out of the box on Windows, but
 hey who knows.
 
+## Credits
+
+I leaned **very heavily** on [this Stack Overflow post](http://stackoverflow.com/questions/4160175/detect-tap-with-pyaudio-from-live-mic) to write the tapping detector. Good stuff. Thanks!
+
 ## Contributing
 Pull requests welcome. Send me bug reports, but I probably will not
 actually get to them. ;-)
